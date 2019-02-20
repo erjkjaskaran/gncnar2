@@ -16,6 +16,8 @@ public class Gnc1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        login lg=new login();
+        lg.show();
     }
     
 }
