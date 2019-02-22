@@ -306,7 +306,7 @@ public class newadmission extends javax.swing.JFrame {
 
         jLabel18.setText("DEPARTMENT");
         getContentPane().add(jLabel18);
-        jLabel18.setBounds(713, 111, 66, 14);
+        jLabel18.setBounds(680, 40, 100, 14);
 
         dept1.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -319,11 +319,11 @@ public class newadmission extends javax.swing.JFrame {
             }
         });
         getContentPane().add(dept1);
-        dept1.setBounds(834, 108, 115, 20);
+        dept1.setBounds(790, 40, 190, 20);
 
         jLabel20.setText("CLASS");
         getContentPane().add(jLabel20);
-        jLabel20.setBounds(713, 139, 31, 14);
+        jLabel20.setBounds(680, 70, 90, 14);
 
         class1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -331,47 +331,47 @@ public class newadmission extends javax.swing.JFrame {
             }
         });
         getContentPane().add(class1);
-        class1.setBounds(834, 139, 115, 20);
+        class1.setBounds(790, 70, 190, 20);
 
         jLabel21.setText("SEMESTER");
         getContentPane().add(jLabel21);
-        jLabel21.setBounds(713, 173, 51, 14);
+        jLabel21.setBounds(680, 104, 90, 20);
 
         getContentPane().add(jComboBox8);
-        jComboBox8.setBounds(834, 170, 115, 20);
+        jComboBox8.setBounds(790, 100, 190, 20);
 
         jLabel22.setText("SUBJECT 1");
         getContentPane().add(jLabel22);
-        jLabel22.setBounds(713, 208, 52, 14);
+        jLabel22.setBounds(680, 130, 100, 14);
 
         jLabel23.setText("SUBJECT 4");
         getContentPane().add(jLabel23);
-        jLabel23.setBounds(713, 287, 52, 14);
+        jLabel23.setBounds(680, 220, 52, 14);
 
         jLabel24.setText("SUBJECT 3");
         getContentPane().add(jLabel24);
-        jLabel24.setBounds(713, 260, 52, 14);
+        jLabel24.setBounds(680, 190, 52, 14);
 
         jLabel25.setText("SUBJECT 2");
         getContentPane().add(jLabel25);
-        jLabel25.setBounds(713, 235, 52, 14);
+        jLabel25.setBounds(680, 160, 90, 14);
 
         jLabel26.setText("SUBJECT6");
         getContentPane().add(jLabel26);
-        jLabel26.setBounds(713, 338, 49, 14);
+        jLabel26.setBounds(680, 270, 49, 14);
 
         jLabel27.setText("SUBJECT 5");
         getContentPane().add(jLabel27);
-        jLabel27.setBounds(706, 313, 52, 14);
+        jLabel27.setBounds(680, 240, 52, 14);
 
         getContentPane().add(jComboBox9);
-        jComboBox9.setBounds(834, 234, 115, 20);
+        jComboBox9.setBounds(790, 160, 190, 20);
 
         getContentPane().add(jComboBox10);
-        jComboBox10.setBounds(834, 260, 115, 20);
+        jComboBox10.setBounds(790, 190, 190, 20);
 
         getContentPane().add(jComboBox11);
-        jComboBox11.setBounds(834, 208, 115, 20);
+        jComboBox11.setBounds(790, 130, 190, 20);
 
         jComboBox12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -379,7 +379,7 @@ public class newadmission extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox12);
-        jComboBox12.setBounds(834, 313, 115, 20);
+        jComboBox12.setBounds(790, 250, 190, 20);
 
         jComboBox13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -387,10 +387,10 @@ public class newadmission extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox13);
-        jComboBox13.setBounds(834, 339, 115, 20);
+        jComboBox13.setBounds(790, 280, 190, 20);
 
         getContentPane().add(jComboBox14);
-        jComboBox14.setBounds(834, 287, 115, 20);
+        jComboBox14.setBounds(790, 220, 190, 20);
 
         jComboBox15.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "MALE", "FEMALE", "TRANSGENDER" }));
         jComboBox15.addActionListener(new java.awt.event.ActionListener() {
