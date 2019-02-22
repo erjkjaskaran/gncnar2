@@ -17,7 +17,7 @@ public class loaddb {
     loaddb()
     {
     try{
-        con=DriverManager.getConnection("jdbc:ucanaccess://E:\\GNC.accdb;memory=true");
+        con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\ASUS\\Documents\\NetBeansProjects\\gncnar2\\gnc1\\src\\gnc1\\GNC.accdb;memory=true");
     }
     catch(Exception e)
     {

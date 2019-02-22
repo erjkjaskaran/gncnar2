@@ -29,11 +29,11 @@ public class pendigfee extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox();
+        pfdept = new javax.swing.JComboBox();
         jLabel3 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        pfclass = new javax.swing.JComboBox();
+        pfsearch = new javax.swing.JButton();
+        pfcancel = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,15 +42,15 @@ public class pendigfee extends javax.swing.JFrame {
 
         jLabel2.setText("DEPARTMENT");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT" }));
+        pfdept.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT" }));
 
         jLabel3.setText("CLASS");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT" }));
+        pfclass.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT" }));
 
-        jButton1.setText("SEARCH");
+        pfsearch.setText("SEARCH");
 
-        jButton2.setText("CANCEL");
+        pfcancel.setText("CANCEL");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -65,16 +65,16 @@ public class pendigfee extends javax.swing.JFrame {
                         .addGap(32, 32, 32)
                         .addComponent(jLabel2)
                         .addGap(36, 36, 36)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(pfdept, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(89, 89, 89)
                         .addComponent(jLabel3)
                         .addGap(30, 30, 30)
-                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(pfclass, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(237, 237, 237)
-                        .addComponent(jButton1)
+                        .addComponent(pfsearch)
                         .addGap(134, 134, 134)
-                        .addComponent(jButton2)))
+                        .addComponent(pfcancel)))
                 .addContainerGap(298, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -85,13 +85,13 @@ public class pendigfee extends javax.swing.JFrame {
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pfdept, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pfclass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(61, 61, 61)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(pfsearch)
+                    .addComponent(pfcancel))
                 .addContainerGap(103, Short.MAX_VALUE))
         );
 
@@ -137,12 +137,12 @@ public class pendigfee extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JComboBox jComboBox1;
-    private javax.swing.JComboBox jComboBox2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton pfcancel;
+    private javax.swing.JComboBox pfclass;
+    private javax.swing.JComboBox pfdept;
+    private javax.swing.JButton pfsearch;
     // End of variables declaration//GEN-END:variables
 }
